@@ -1,0 +1,64 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Data files (too large for GitHub)
+data/raw/*
+data/processed/*.pkl
+data/processed/*.npy
+*.h5
+*.hdf5
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs
+logs/*
+*.log
+!logs/.gitkeep
+
+# Output files
+output/plots/*.png
+output/plots/*.pdf
+!output/plots/.gitkeep
+
+# Environment variables
+.env
+config.ini
+
+# Large model files
+models/*.pkl
+models/*.h5
+!models/.gitkeep
